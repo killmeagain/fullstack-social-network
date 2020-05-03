@@ -1,0 +1,17 @@
+.login-page {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+    &__logo-container,
+    &__registration-container {
+        width: 50%;
+    }
+
+    @import "./__logo/__logo";
+    @import "./__title/__title";
+    @import "./__main-title/__main-title";
+    @import "./__login/__login";
+    @import "./__registration/__registration";
+    @import "./__title-registration/__title-registration";
+}

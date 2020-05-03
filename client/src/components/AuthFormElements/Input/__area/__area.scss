@@ -1,0 +1,17 @@
+&__area {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+
+    box-sizing: border-box;
+    outline: none;
+
+    font-family: $roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    @import "./_theme-gray/_theme-gray";
+    @import "./_theme-light/_theme-light";
+}

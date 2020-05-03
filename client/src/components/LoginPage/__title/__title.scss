@@ -1,0 +1,14 @@
+&__title {
+    width: 100%;
+    height: calc(100vh - 70px);
+
+    background-color: $red;
+    background-image: url("../../../img/title.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

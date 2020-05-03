@@ -1,0 +1,21 @@
+&_theme-light {
+    &::placeholder {
+        color: #ddd;
+        transition: 0.2s ease-in-out;
+    }
+    
+    transition: 0.2s ease-in-out;
+    color: $white;
+    border-bottom: 1px solid #ddd;
+
+    &:hover,
+    &:focus {
+        border-color: $white;
+        transition: 0.2s ease-in-out;
+
+        &::placeholder {
+            color: $white;
+            transition: 0.2s ease-in-out;
+        }
+    }
+}

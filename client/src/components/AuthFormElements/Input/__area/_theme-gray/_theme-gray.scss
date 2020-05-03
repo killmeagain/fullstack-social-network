@@ -1,0 +1,22 @@
+&_theme-gray {
+    &::placeholder {
+        color: $darkShadeHalf;
+        transition: 0.2s ease-in-out;
+    }
+
+    color: $darkShadeBlack;
+    border-bottom: 1px solid $darkShadeHalf;
+    
+    transition: 0.2s ease-in-out;
+
+    &:hover,
+    &:focus {
+        border-color: $darkShadeGray;
+        transition: 0.2s ease-in-out;
+
+        &::placeholder {
+            color: $darkShadeGray;
+            transition: 0.2s ease-in-out;
+        }
+    }
+}

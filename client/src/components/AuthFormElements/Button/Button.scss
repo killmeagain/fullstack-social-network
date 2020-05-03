@@ -1,0 +1,22 @@
+.button {
+    width: 100%;
+    font-size: 14px;
+    font-family: $roboto;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 12px 32px;
+    display: inline-block;
+    border: none;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        background-color: #333333;
+        transition: 0.2s ease-in-out;
+    }
+
+    @import "./_theme-red/_theme-red";
+    @import "./_theme-white/_theme-white";
+}

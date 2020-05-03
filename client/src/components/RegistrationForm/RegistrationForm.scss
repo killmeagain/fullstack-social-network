@@ -1,0 +1,21 @@
+.registration-form {
+    max-width: 500px;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.25);
+
+    &__firstname,
+    &__lastname {
+        width: 48%;
+    }
+
+    &__email {
+        margin-bottom: 15px;
+    }
+
+    &__password {
+        margin-bottom: 25px;
+    }
+
+    @import "./__title/__title";
+    @import "./__container/__container";
+    @import "./__name/__name";
+}

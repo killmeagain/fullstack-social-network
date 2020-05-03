@@ -1,0 +1,9 @@
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    @import "./__email/__email";
+    @import "./__password/__password";
+}
